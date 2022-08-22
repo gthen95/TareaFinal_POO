@@ -6,6 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Figuras_Ejemplos\circulo.txt" />
+    <None Remove="Figuras_Ejemplos\cuadrado.txt" />
+    <None Remove="Figuras_Ejemplos\triangulo.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Figuras_Ejemplos\circulo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Figuras_Ejemplos\cuadrado.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Figuras_Ejemplos\triangulo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
   </ItemGroup>
 
